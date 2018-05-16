@@ -31,4 +31,6 @@ list, create와 다르게 update는 특정 모델 인스턴스를 불러와야�
     path('api/note/<pk>/update', note_update.as_view())
     
 django rest framework docs에 ListCreateAPIView 같은 Concrete Class View 가 있길래, '왜 List와 Create를 같이 묶어놨지?' 했는데 막상 구현해보니 url 때문인 것 같았다. 
-    
+
+### 참고
+http://www.django-rest-framework.org/api-guide/generic-views/
