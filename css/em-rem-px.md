@@ -1,10 +1,9 @@
 # em, rem, px 차이
 
 em과 rem은 적용된 font-size에 따라 px값으로 변환된다.  
-`
-font-size:16px;  
-padding: 1.5em; // 16 * 1.5 = 24px  
-`
+
+    font-size:16px
+    padding: 1.5em; // 16 * 1.5 = 24px
 
 em과 rem은 기준이 되는 DOM element에 따라 다르다.  
 em은 해당 element에, rem은 html 태그에 적용된 font-size에 따라 px값으로 변환된다.  
