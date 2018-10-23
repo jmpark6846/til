@@ -23,7 +23,7 @@ django 프로젝트를 AWS에 배포할때 하는 일들을 쭉 적어봤다. �
 2. django project를 scp를 사용해서 서버에 업로드
 3. 서버에 가상환경 설정, 디펜던시 설치
 4. mysql-server 설치
-5. mysqlclient 설치, mysql-config 등 필요한 패키지 설
+5. mysqlclient 설치, mysql-config 등 필요한 패키지 설치
 6. mysql shell에서 project 용 user 추가
 7. 새 user에 권한 설정
 8. db table 생성
